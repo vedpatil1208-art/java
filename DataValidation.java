@@ -11,6 +11,7 @@ class DataValidation{
             System.out.println("You have entered " + num);
         }else{
             System.out.println("Invalid input! Please enter a number.");
+            sc.next();
         }
 
         System.out.println("Enter a name: ");
@@ -19,6 +20,9 @@ class DataValidation{
             System.out.println("You have entered " + name);
         }else{
             System.out.println("Invalid input! Please enter a name.");
+            sc.next();
         }
     }
 }
+
+// 2^n where n is in bits: 2^8 for 1 bytes = 256 and the range will be -255 to 255.
